@@ -54,4 +54,4 @@ jobs:
           app-name: 'testvinod'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3F0E5B53B6164FF2BF42BF9DD4E2E9FD }}
-          package: .
+          package: bin
